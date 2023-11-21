@@ -1,0 +1,1146 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.23f1 (9636b062134a) revision 9844400'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32507 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/diana/OneDrive/Documents/GitHub/EGD_game_a/Uber Simulator
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62053
+Successfully changed project path to: C:/Users/diana/OneDrive/Documents/GitHub/EGD_game_a/Uber Simulator
+C:/Users/diana/OneDrive/Documents/GitHub/EGD_game_a/Uber Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 49.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.23f1 (9636b062134a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/diana/OneDrive/Documents/GitHub/EGD_game_a/Uber Simulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7962 MB
+    Driver:   31.0.15.3210
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005915 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.590 seconds
+Domain Reload Profiling:
+	ReloadAssembly (590ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (401ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+				TypeCache.Initialize (104ms)
+					TypeCache.ScanAssembly (103ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002518 seconds.
+Android Extension - Scanning For ADB Devices 663 ms
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D200299030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200299030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47D8883A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47D88F1B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200299030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47D894DC0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200593E30 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2010B5020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200593E30 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2002C2C10 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47D7AA220 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2002C2C10 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DBF0E20 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47D7CA040 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E1A5010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Febucci.HierarchyIcons.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200F1C010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E229620 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200F2D420 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E229620 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDC4C10 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDC4C10 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201113E30 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDC4C10 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200F36C30 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200F36C30 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDC4C10 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200F7CAF0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009F1640 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+				TypeCache.Initialize (197ms)
+					TypeCache.ScanAssembly (194ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (58.9 KB). Loaded Objects now: 3871.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 4.163600 ms (FindLiveObjects: 0.426300 ms CreateObjectMapping: 0.115800 ms MarkObjects: 3.540300 ms  DeleteObjects: 0.080000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003259 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D200431010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A36AD010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDFB030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2013076E0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200431010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2013076E0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2B17020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2BDF020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1974060 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A316D380 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201B84B20 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A23F2030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1A07A80 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A23F2030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A316D380 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A30FE020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Febucci.HierarchyIcons.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A30FE020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A316D380 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2018C64D0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2018C64D0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2013076E0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014F8610 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A242FA40 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200282020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E055020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A242FA40 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A3736820 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A242FA40 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (623ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+				TypeCache.Initialize (140ms)
+					TypeCache.ScanAssembly (137ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (35ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3874.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 4.047900 ms (FindLiveObjects: 0.311300 ms CreateObjectMapping: 0.104500 ms MarkObjects: 3.587200 ms  DeleteObjects: 0.043900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 495846.482161 seconds.
+  path: Assets/Diana/Scenes
+  artifactKey: Guid(49641620a2cf31249a8e55dfd39374e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana/Scenes using Guid(49641620a2cf31249a8e55dfd39374e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1eb91967f5dd3e21d78e08fc50d434') in 0.007907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.590882 seconds.
+  path: Assets/Diana/Scripts
+  artifactKey: Guid(de60f0f17b90e32419e0c8dbdf75862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana/Scripts using Guid(de60f0f17b90e32419e0c8dbdf75862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ec9ec684bdbde2d97fc3a6668863de') in 0.010637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.855660 seconds.
+  path: Assets/Diana/Materials
+  artifactKey: Guid(dc30a90e96c775b449d69e63c9a6ce32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana/Materials using Guid(dc30a90e96c775b449d69e63c9a6ce32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444970e92c21039a2f363876c6eefae5') in 0.006431 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004493 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D2016CFB40 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2004A9880 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDFB030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201A83780 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200431010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2B17020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2BDF020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2004F4030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A229E010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014B3010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A3732A80 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2B8B020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A34C0450 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2014B3010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Febucci.HierarchyIcons.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2007F8010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019FB220 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E229620 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2016E5150 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200282020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201C4D070 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A3171780 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A3171780 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+				TypeCache.Initialize (155ms)
+					TypeCache.ScanAssembly (151ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.4 KB). Loaded Objects now: 3877.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 4.331400 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.116000 ms MarkObjects: 3.881600 ms  DeleteObjects: 0.028700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002155 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D4A3157F70 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2004A9880 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDFB030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201F69B50 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200103010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A602C460 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2B17020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2009A0020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200461010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1E6E030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A15E2030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1E6E030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A22E2010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1D1B250 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2882020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Febucci.HierarchyIcons.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2007F8010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200000080 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E229620 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A457A890 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E016420 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E016420 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A602C460 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E016420 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E016420 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2697FB0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201C4D070 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E016420 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A602C460 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A34C4850 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Domain Reload Profiling:
+	ReloadAssembly (618ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (490ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+				TypeCache.Initialize (159ms)
+					TypeCache.ScanAssembly (156ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3880.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.924600 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.053300 ms MarkObjects: 3.634600 ms  DeleteObjects: 0.041900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.966172 seconds.
+  path: Assets/Diana/Scriptable Objs
+  artifactKey: Guid(5ee3de703f2b2254eb8e8cebf44b237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana/Scriptable Objs using Guid(5ee3de703f2b2254eb8e8cebf44b237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f8aab11ae8fcfa5075bf3682d222e6') in 0.014128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.765750 seconds.
+  path: Assets/Diana/Images
+  artifactKey: Guid(2a5f6b0d36c8d2249b54b03ff454ad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana/Images using Guid(2a5f6b0d36c8d2249b54b03ff454ad6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50566e6bcc10dc12a09e368781c1a639') in 0.010542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.908910 seconds.
+  path: Assets/Diana/Scriptable Objs/Events
+  artifactKey: Guid(2e8013a44d718b743b2963c8fca397ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana/Scriptable Objs/Events using Guid(2e8013a44d718b743b2963c8fca397ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c91dbc35c3d096db392366c3b16e88a') in 0.007723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.972296 seconds.
+  path: Assets/Diana/Scriptable Objs/Messages
+  artifactKey: Guid(38dba40a5e33945449502823ccf62d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana/Scriptable Objs/Messages using Guid(38dba40a5e33945449502823ccf62d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085d66e4e9421b5c47871c4c44848835') in 0.007558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.474093 seconds.
+  path: Assets/Diana/Scriptable Objs/Customers
+  artifactKey: Guid(82538d76ae2c42b4abdb79eda0cecca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diana/Scriptable Objs/Customers using Guid(82538d76ae2c42b4abdb79eda0cecca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b438ec974d5a35035e2c699c6e20b73a') in 0.008699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.847035 seconds.
+  path: Assets/Scenes/Ending.unity
+  artifactKey: Guid(92eda92516dafa94fa1bc1b3c6b5ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ending.unity using Guid(92eda92516dafa94fa1bc1b3c6b5ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5092ffbad5a6bedd7e1bd501800f3068') in 0.010497 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D4A1D06040 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E0311B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDFB030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E0311B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2FB9F60 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201F69B50 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2B17020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A176A030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47D9FD010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A33D5CD0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1D1B650 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201142A80 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201142A80 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47D9FD010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A33D5CD0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2011B1010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DB58010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201BCE010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Febucci.HierarchyIcons.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2011B1010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DB58010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E229620 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A602C460 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200282020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A22C0010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DA25A20 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019247A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (694ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (566ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+				TypeCache.Initialize (186ms)
+					TypeCache.ScanAssembly (182ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (25.4 KB). Loaded Objects now: 3883.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.787300 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.093600 ms MarkObjects: 2.316500 ms  DeleteObjects: 0.023100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002927 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D200431010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDFB030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200103010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2B17020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200C66020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47D9FD010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200382050 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A19ABE80 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2BDF020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200382050 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A22E2010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1606060 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A11CC020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Febucci.HierarchyIcons.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2B39020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1606060 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E229620 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A5E01110 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A602C460 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A176A030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87390A0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201F69B50 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D201F69B50 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Domain Reload Profiling:
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (558ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+				TypeCache.Initialize (168ms)
+					TypeCache.ScanAssembly (165ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3886.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.893800 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.591300 ms  DeleteObjects: 0.029100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002511 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D4A2FB9F60 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47DDFB030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2019E6010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200D90010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2B17020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200C66020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D200F56C50 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E8816050 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1656020 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E8816050 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A22E2010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D20110AEC0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A3110010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Febucci.HierarchyIcons.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A2C30FB0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D20110AEC0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D47E229620 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1BC0010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A176A030 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D2010F6EA0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4A1BC0010 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D4E87410B0 doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\diana\OneDrive\Documents\GitHub\EGD_game_a\Uber Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Domain Reload Profiling:
+	ReloadAssembly (674ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (546ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+				TypeCache.Initialize (160ms)
+					TypeCache.ScanAssembly (156ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3889.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.808900 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.057800 ms MarkObjects: 2.548500 ms  DeleteObjects: 0.023300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f36a28a831a925140b097adf7b2cd942, type: 3}
+  m_Name: Event 2
+  m_EditorClassIdentifier: 
+  EventName: Careful! A building collapsed. Do you risk going through?
+  GracePeriod: 20
+  Cooldown: 10
+  Timing: 50
+  InRoute: 1
+  InIntersection: 0

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638359903088748997
-    m_Hash: 569745946
+      ticks: 638360793271251616
+    m_Hash: 3972670426
   m_LockFileStatus:
     m_FilePath: C:/Users/diana/OneDrive/Documents/GitHub/EGD_game_a/Uber Simulator/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638359903088982584
-    m_Hash: 3971606658
+      ticks: 638360793271331752
+    m_Hash: 1288149195
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
